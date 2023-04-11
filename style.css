@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Alkatra, sans-serif;
+  font-size: 20px;
+  background-color: rgba(114, 255, 224, 0.603);
+  background-repeat: no-repeat;
+}
+
+.container{
+  background-color: cadetblue ;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;  
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+}
+
+.date{
+  font-size: 35px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.month{
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.time{
+  display: block;
+  text-align: right;
+  font-size: 50px;
+  padding: 10px;  
+  margin: 10px;
+}
+
+/*Current Weather Section*/
+
+.section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.section .weather-display{
+  width: 100%;
+  max-width: 1080px;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.section .weather-display .weather-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+
+}
+
+.section .weather-display .current-weather{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+@media only screen and (max-width:730px){
+  .container{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;  
+  }
+
+  .date{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .section .weather-display .current-weather{
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
