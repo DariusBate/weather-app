@@ -9,7 +9,7 @@ const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={l
 
 //city will store the city name//
 
-const city = "Timisoara";
+const city = "Oradea";
 
 setInterval(() => {
     const time = new Date();
